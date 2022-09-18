@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+:root {
+  background: hsl(235, 12%, 19%);
+  color: hsl(235, 0%, 100%);
+  font-family: 'Nunito Sans';
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.interaction {
+  padding: 1rem;
+  margin: 2rem;
+  border: solid 2px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.interaction > button {
+  padding: 0.5rem;
+  background-color: hsl(235, 54%, 43%);
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px hsla(240, 9%, 9%, 0.5);
+  color: inherit;
+  font-size: 1.2rem;
+  font-weight: 800;
+
+  transition-duration: 200ms;
+}
+
+.interaction > button:hover {
+  background-color: hsl(235, 48%, 36%);
+}
+
+.interaction > input {
+  padding: 0.8rem;
+  color: hsl(234, 7%, 27%);
+  font-size: 1.2rem;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+}
