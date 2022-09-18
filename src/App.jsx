@@ -6,7 +6,9 @@ const App = () => {
   return (
     <div className="App">
       <div className="interaction">
-        <div className="username">USER = {username || "<type username>"}</div>
+        <div className="username">
+          USERNAME = {username || "<type username>"}
+        </div>
         <input
           type="text"
           value={username}
